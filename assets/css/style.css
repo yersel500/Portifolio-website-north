@@ -29,7 +29,6 @@ body {
   flex-direction: column;
   width: 405px;
   flex-wrap: wrap;
-  border: 2px solid goldenrod;
 }
 
 .notification-bar {
@@ -74,7 +73,6 @@ body {
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
-  border: 2px solid goldenrod;
 }
 
 .line-headline {
