@@ -401,8 +401,6 @@ textarea {
   background: var(--neutral);
   box-sizing: border-box;
   border-radius: 4px;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 textarea {
@@ -411,11 +409,6 @@ textarea {
   width: 327px;
   height: 114px;
   text-align: left;
-}
-
-.text {
- position: relative;
- left: 5px;
 }
 
 input:hover,
