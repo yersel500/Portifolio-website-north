@@ -4,7 +4,7 @@
 
 > This is project about me and what i do.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_shot.png)
 
 Additional description about the project and its features.
 
@@ -22,11 +22,15 @@ Additional description about the project and its features.
 - GitHub: [@githubhandle](https://github.com/kinginthenorthcodez)
 - Twitter: [@twitterhandle](https://twitter.com/kininthenorthcode)
 
+👤 **Author2**
+
+- GitHub: [@HectorTorresE](https://github.com/HectorTorresE)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/Portifolio-website-north/issues/
 
 ## Show your support
 

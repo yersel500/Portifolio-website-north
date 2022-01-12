@@ -284,7 +284,7 @@ ul > li {
 
 .enable-btn,
 .btn-form {
-  width: 159px;
+  width: 129px;
   height: 48px;
   border-radius: 4px;
   background: var(--neutral-icons);
@@ -342,6 +342,7 @@ ul > li {
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
+  margin-top: 25px;
 }
 
 .skills-tags li {
@@ -351,7 +352,7 @@ ul > li {
   font-size: 12px;
   line-height: 16px;
   margin: 0 0;
-  color: var(--secondary);
+  color: #36b37e;
   background-color: var(--neutral);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -396,28 +397,31 @@ textarea {
   line-height: 24px;
   font-weight: normal;
   color: var(--primary);
-  padding: 10px;
-  border: 1px solid var(--backcolor-card);
+  padding: 5px;
+  border: 1px solid #60c095;
   background: var(--neutral);
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 textarea {
-  padding: 10px;
+  padding: 5px;
   margin: 24px 0;
   width: 327px;
   height: 114px;
+  text-align: left;
 }
 
 input:hover,
 textarea:hover {
-  transform: scale(1.3);
+  transform: scale(1);
+  border: 1px solid lightskyblue;
 }
 
 input:focus,
 textarea:focus {
-  transform: scale(1.2);
+  transform: scale(1);
+  border: 1px solid lightskyblue;
 }
 
 .btn-form {
@@ -425,17 +429,38 @@ textarea:focus {
   padding: 10px;
 }
 
+.btn-form:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 1s;
+}
+
 .contact-email {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  height: 189px;
   margin-bottom: 20px;
 }
 
+.footer {
+  margin-top: 25px;
+}
+
 .so-footer {
-  margin: auto 25%;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  flex: 1;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 15px;
+  position: relative;
+  left: 50px;
+}
+
+.so-footer ul li {
+  padding: 0 12px;
 }
