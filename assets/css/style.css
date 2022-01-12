@@ -260,7 +260,6 @@ ul > li {
   color: var(--primary);
   background: var(--backcolor-card);
   border-radius: 4px;
-
 }
 
 .btn-action-card {
@@ -454,7 +453,7 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   width: 320px;
-  flex:1;
+  flex: 1;
   justify-content: space-between;
   align-self: flex-start;
   padding: 15px;
@@ -465,4 +464,3 @@ textarea:focus {
 .so-footer ul li {
   padding: 0 12px;
 }
-
