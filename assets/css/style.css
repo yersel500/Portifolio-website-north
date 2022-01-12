@@ -260,6 +260,7 @@ ul > li {
   color: var(--primary);
   background: var(--backcolor-card);
   border-radius: 4px;
+
 }
 
 .btn-action-card {
@@ -284,7 +285,7 @@ ul > li {
 
 .enable-btn,
 .btn-form {
-  width: 159px;
+  width: 129px;
   height: 48px;
   border-radius: 4px;
   background: var(--neutral-icons);
@@ -342,6 +343,7 @@ ul > li {
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
+  margin-top: 25px;
 }
 
 .skills-tags li {
@@ -351,7 +353,7 @@ ul > li {
   font-size: 12px;
   line-height: 16px;
   margin: 0 0;
-  color: var(--secondary);
+  color: #36b37e;
   background-color: var(--neutral);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -450,12 +452,17 @@ textarea:focus {
 
 .so-footer {
   display: flex;
+  flex-direction: column;
+  width: 320px;
+  flex:1;
   justify-content: space-between;
-  align-self: center;
-  margin: auto 25%;
-  padding: 10px;
+  align-self: flex-start;
+  padding: 15px;
+  position: relative;
+  left: 50px;
 }
 
 .so-footer ul li {
-  padding: 0 15px;
+  padding: 0 12px;
 }
+
