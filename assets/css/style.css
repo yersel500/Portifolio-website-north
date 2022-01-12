@@ -396,7 +396,7 @@ textarea {
   line-height: 24px;
   font-weight: normal;
   color: var(--primary);
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #60c095;
   background: var(--neutral);
   box-sizing: border-box;
@@ -404,7 +404,7 @@ textarea {
 }
 
 textarea {
-  padding: 10px;
+  padding: 5px;
   margin: 24px 0;
   width: 327px;
   height: 114px;
@@ -414,11 +414,13 @@ textarea {
 input:hover,
 textarea:hover {
   transform: scale(1);
+  border: 1px solid lightskyblue;
 }
 
 input:focus,
 textarea:focus {
   transform: scale(1);
+  border: 1px solid lightskyblue;
 }
 
 .btn-form {
@@ -434,14 +436,26 @@ textarea:focus {
 .contact-email {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  height: 189px;
   margin-bottom: 20px;
 }
 
+.footer {
+  margin-top: 25px;
+}
+
 .so-footer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
   margin: auto 25%;
   padding: 10px;
+}
+
+.so-footer ul li {
+  padding: 0 15px;
 }
