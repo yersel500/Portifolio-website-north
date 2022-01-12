@@ -19,8 +19,8 @@ Additional description about the project and its features.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/kinginthenorthcodez)
-- Twitter: [@twitterhandle](https://twitter.com/kininthenorthcode)
+- GitHub: [@kinginthenorthcodez](https://github.com/kinginthenorthcodez)
+- Twitter: [@kininthenorthcode](https://twitter.com/kininthenorthcode)
 
 👤 **Author2**
 
