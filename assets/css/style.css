@@ -144,6 +144,15 @@ body {
   align-self: center;
 }
 
+.btn-action-card:hover {
+  transform: scale(1.2) 1s;
+  transition: ease-in-out 1s;
+  font-size: 20px;
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+
 .social {
   align-self: center;
   position: static;
@@ -325,6 +334,12 @@ ul > li {
   background-color: var(--backcolor-card);
 }
 
+.text:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 1s;
+  color: green;
+}
+
 .categories > .text {
   color: var(--primary);
   font-family: 'Inter', sans-serif;
@@ -335,6 +350,13 @@ ul > li {
   margin: 24px 0;
   text-align: center;
   padding: 10px;
+}
+
+.skills-tags li:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 1s;
+  background-color: green;
+  color: white;
 }
 
 .skills-tags {
