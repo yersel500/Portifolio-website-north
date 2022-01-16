@@ -10,29 +10,30 @@
 </head>
 
 <body>
-
+  
   <header class="header-container">
     <div class="notification-bar">
       <img class="bar time-bar" src="assets/images/Status-Bars/Time-Style.svg" alt="timer">
       <img class="bar status-bar" src="assets/images/Status-Bars/Group-3.svg" alt="network-bars">
     </div>
-    <section class="toolbar">
+    <section class="toolbar toolbar-desktop">
       <a href="#" class="logo">
         <h2>Welcome</h2>
       </a>
-      <nav class="btn togle-hum">
+      <nav class="btn togle-hum nav-link">
+        <ul class="nav-links">
+          <li><a href="#">Portifolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
         <img src="assets/images/Union.svg" alt="menu-icon">
       </nav>
     </section>
   </header>
   <!--main section-->
-  <section class="headline headline-bg-img">
-    <h2 class="line-headline bg-img"> Hey there. I’m Kinginthenorth-codez <br>
-      <span class="sub-line">I’m a software developer</span>
-    </h2>
-    <p class="suport-text"> I can help you build a product , feature or website Look through some of my work and
-      experience! If you like what you see and have a project you need coded,
-      don’t hestiate to contact me.</p>
+  <section class="headline headline-bg-img headline-main">
+    <h2 class="line-headline main-headline bg-img"> Hey there.I’m Kinginthenorth-codez<span class="sub-line">I’m a software developer</span></h2>
+    <p class="suport-text"> I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br>don’t hestiate to contact me.</p>
     <a href="#" class="linker">Lets Connect here!</a>
     <div class="social">
       <ul>
@@ -57,8 +58,8 @@
           </a>
         </li>
       </ul>
-    </div>
-    <div class="more-btn"><a href="#"> <img src="assets/images/Disabled.svg" alt="button-icon"></a></div>
+    </div>  
+      <div class="disable-btn"><a href="#"><img src="assets/images/Disabled.svg" alt="button"></a></div>
   </section>
 
   <!-- work section-->
@@ -181,16 +182,14 @@
         </a>
       </div>
     </div>
+
   </section>
+
   <!--About me section-->
-  <section class="headline headline-bg-img">
-    <h2 class="line-headline about-bg-img">About me <br>
-      <span class="sub-line">I’m a software developer</span>
-    </h2>
-    <p class="suport-text"> I can help you build a product , feature or website Look through some of my work and
-      experience! If you like what you see and have a project you need coded,
-      don’t hestiate to contact me.</p>
-    <a href="#" class="linker enable-btn">Get my Resume!</a>
+  <section class="headline about-section headline-bg-img">
+    <h2 class="line-headline  about-headline  about-bg-img">About me</h2>
+    <p class="suport-text about-line"> I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br>don’t hestiate to contact me.</p>
+    <a href="#" class="linker enable-btn">Get my Resume</a>
     <ul class="categories">
       <li class="skill-item">
         <img src="/assets/images/Icons/icon-languages.svg" alt="lang">
@@ -230,10 +229,8 @@
   </section>
   <!--form section-->
   <section class="form-container">
-    <h6 class="form-surpot-text">I'm always interested in hearing about new projects, so if you'd like to chat please
-      get in touch.
-    </h6>
-    <form action="https://formspree.io/f/xyyokgnn" method="post" name="contact-form-folio">
+    <h6 class="form-surpot-text">I'm always interested in hearing about new projects, so if you'd like to chat please et in touch.</h6>
+     <form action="https://formspree.io/f/xyyokgnn" method="post" name="contact-form-folio">
       <label for="fname">
         <input type="text" id="fname" name="fname" maxlength="30" placeholder="Full name" required>
       </label>
