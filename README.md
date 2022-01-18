@@ -11,6 +11,10 @@
 
 You can see [the app live here](https://kinginthenorthcodez.github.io/Portifolio-website-north/)
 
+## Live Demo
+
+You can see [the app live here](https://kinginthenorthcodez.github.io/Portifolio-website-north/)
+
 Additional description about the project and its features.
 
 ## Built With
