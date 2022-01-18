@@ -5,6 +5,11 @@
 > This is project about me and what i do.
 
 ![screenshot](./app_shot.png)
+![screenshot](./app_sceenshot.png)
+
+## Live Demo
+
+You can see [the app live here](https://kinginthenorthcodez.github.io/Portifolio-website-north/)
 
 ## Live Demo
 
@@ -17,6 +22,7 @@ Additional description about the project and its features.
 - HTML
 - CSS
 - Linters
+- Github pages
 
 
 ## Authors
